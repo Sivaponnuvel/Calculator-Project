@@ -1,6 +1,9 @@
 const display = document.getElementById("display")
 
 function appendValue(value){
+    if(display.value === "Error"){
+        display.value = "";
+    }
     display.value += value;
 }
 
