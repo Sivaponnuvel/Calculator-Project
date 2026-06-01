@@ -20,3 +20,27 @@ function calculate(){
         display.value = "Error"
     }
 }
+
+document.addEventListener("keydown", (event) =>{
+    const key = event.key;
+    if(
+        (key >= "0" && key <= "9") ||
+        key === "+" ||
+        key === "-" ||
+        key === "*" ||
+        key === "/" ||
+        key === "." ||
+        key === "%" 
+    ){
+        appendValue(key);
+    }
+    else if(key === "Enter"){
+        calculate();
+    }
+    else if(key === "Backspace"){
+        deleteLast();
+    }
+    else if(key === "Escape"){
+        clearDisplay()
+    }
+});
