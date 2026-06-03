@@ -8,10 +8,10 @@ This project provides a clean user interface for performing basic arithmetic ope
 ## 🚀 Features
 
 * 🧮 Basic Arithmetic Operations
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
 * 📊 Percentage Calculation
 * 🗑️ Delete Last Character
 * 🔄 Clear All (AC)
